@@ -20,7 +20,14 @@ def ABC2Monke(txt: str) -> str:
     abc = [" ", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
     Mabc = [" ", "O", "Oh", "U", "H", "Ou", "Hi", "I", "A", "Ha", "Ho", "Uh", "Hu", "Hou", "Ah", "Houhi", "Haha", "Oug", "Houg", "Ag", "Hiha", "Hoho", "Hihahou", "Hahouhi", "Houghi", "Haaaa", "Hiiiho"]
     symb = ["?", ",", ".", "'", "!", "/", ";", ":", "&", "@", "#", "(", ")", "_", "\"", "\\"]
+    nmbrs = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
     for i in range(len(Txt)):
+    
+        #test for symbols and nubers
+        for nb in range(len(nmbrs)):
+            if txt[i] == nmbrs[nb]:
+                Monke = Monke + nmbrs[nb]
+                
         for k in range(len(symb)):
             if txt[i] == symb[k]:
                 Monke = Monke + symb[k]
@@ -48,10 +55,17 @@ def Monke2ABC(txt: str) -> str:
     abc = [" ", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
     Mabc = [" ", "O", "Oh", "U", "H", "Ou", "Hi", "I", "A", "Ha", "Ho", "Uh", "Hu", "Hou", "Ah", "Houhi", "Haha", "Oug", "Houg", "Ag", "Hiha", "Hoho", "Hihahou", "Hahouhi", "Houghi", "Haaaa", "Hiiiho"]
     symb = ["?", ",", ".", "'", "!", "/", ";", ":", "&", "@", "#", "(", ")", "_", "\"", "\\"]
+    nmbrs = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
     
     txt = txt + "8"
     
     for i in range(len(txt)):
+        
+        #test for symbols and nubers
+        for nb in range(len(nmbrs)):
+            if txt[i] == nmbrs[nb]:
+                TrueABC = TrueABC + nmbrs[nb]
+                
         for k in range(len(symb)):
             if txt[i] == symb[k]:
                 TrueABC = TrueABC + symb[k]
