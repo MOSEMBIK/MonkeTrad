@@ -1,8 +1,5 @@
 # MonkeTrad by MOSEMBIK
-# V1.5.1
-
-# Some functions
-import time
+# V1.5.2
 
 # ABC to Monke
 def ABC2Monke(txt: str) -> str:
@@ -91,27 +88,29 @@ def Monke2ABC(txt: str) -> str:
 
 # main
 def main() -> None:
+    print("Welcome in MonkeTrad by MOSEMBIK.", "Press enter to start :     ", sep="\n")
+    OSEF = input(" ")
     Start = 1
-    print("Welcome in MonkeTrad by MOSEMBIK.", "Press enter to start :     ", " ", sep="\n")
-    input()
     while Start == 1:
-        print("Insert M if you want to traduce from RDIML to a Language that use Latin alphabet.", "Insert H if you want to traduce from a Language that use Latin alphabet to RDIML.", sep="\n")
+        print("Insert M if you want to traduce from RDIML to a Language that use Latin alphabet. Insert H if you want to traduce from a Language that use Latin alphabet to RDIML.")
         Lng = input("     ")
         if Lng.upper() == "M":
-            txt = input(" ", "Insert your text now :   ", sep="\n")
+            txt = input("Insert your text now :   ")
             ToPrint = Monke2ABC(txt)
             print(ToPrint)
-            input(" ", "Press enter to continue :     ", sep="\n")
+            print(" ", "Press enter to continue :    ", sep="\n")
+            restart = input(" ")
         elif Lng.upper() == "H":
-            txt = input(" ", "Insert your text now :   ", sep="\n")
+            txt = input("Insert your text now :   ")
             ToPrint = ABC2Monke(txt.lower())
             print(ToPrint)
-            input(" ", "Press enter to restart or EXIT to exit :    ", sep="\n")
+            print(" ", "Press enter to continue :    ", sep="\n")
+            restart = input(" ")
         else:
             print("OMG, are u stupid ? Insert M or H. Dude.")
-            input(" ", "Press enter to restart or EXIT to exit :    ", sep="\n")
         
-        restart = input(" ", "Press enter to restart or EXIT to exit :    ", sep="\n")
+        print(" ", "Press enter to restart or EXIT to exit :    ", sep="\n")
+        restart = input(" ")
         if restart.upper() == "EXIT":
             Start = 0
         else :
