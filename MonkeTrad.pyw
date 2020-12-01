@@ -127,6 +127,8 @@ window.title("MonkeTrad V2.1 - by MOSEMBIK")
 
 window.geometry("500x400")
 
+window.iconbitmap('MonkeTrad.ico')
+
 # ABC 2 Monke
 LbV1 = Label(window, text=" ", font=("Arial Bold", 5))
 LbV1.grid(column=0, row=0)
