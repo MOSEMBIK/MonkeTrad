@@ -1,4 +1,5 @@
-# V1.3
+# MonkeTrad by MOSEMBIK
+# V1.5.1
 
 # Some functions
 import time
@@ -91,24 +92,26 @@ def Monke2ABC(txt: str) -> str:
 # main
 def main() -> None:
     Start = 1
+    print("Welcome in MonkeTrad by MOSEMBIK.", "Press enter to start :     ", " ", sep="\n")
+    input()
     while Start == 1:
-        print("Insert M if you want to traduce from RDIML to a Language that use Latin alphabet. Insert H if you want to traduce from a Language that use Latin alphabet to RDIML.")
+        print("Insert M if you want to traduce from RDIML to a Language that use Latin alphabet.", "Insert H if you want to traduce from a Language that use Latin alphabet to RDIML.", sep="\n")
         Lng = input("     ")
         if Lng.upper() == "M":
-            txt = input("Insert your text now :   ")
+            txt = input(" ", "Insert your text now :   ", sep="\n")
             ToPrint = Monke2ABC(txt)
             print(ToPrint)
-            time.sleep(15)
+            input(" ", "Press enter to continue :     ", sep="\n")
         elif Lng.upper() == "H":
-            txt = input("Insert your text now :   ")
+            txt = input(" ", "Insert your text now :   ", sep="\n")
             ToPrint = ABC2Monke(txt.lower())
             print(ToPrint)
-            time.sleep(15)
+            input(" ", "Press enter to restart or EXIT to exit :    ", sep="\n")
         else:
             print("OMG, are u stupid ? Insert M or H. Dude.")
-            time.sleep(15)
+            input(" ", "Press enter to restart or EXIT to exit :    ", sep="\n")
         
-        restart = input("Press enter to restart or EXIT to exit :    ")
+        restart = input(" ", "Press enter to restart or EXIT to exit :    ", sep="\n")
         if restart.upper() == "EXIT":
             Start = 0
         else :
