@@ -90,21 +90,29 @@ def Monke2ABC(txt: str) -> str:
 
 # main
 def main() -> None:
-    print("Insert M if you want to traduce from RDIML to a Language that use Latin alphabet. Insert H if you want to traduce from a Language that use Latin alphabet to RDIML.")
-    Lng = input("     ")
-    if Lng.upper() == "M":
-        txt = input("Insert your text now :   ")
-        ToPrint = Monke2ABC(txt)
-        print(ToPrint)
-        time.sleep(30)
-    elif Lng.upper() == "H":
-        txt = input("Insert your text now :   ")
-        ToPrint = ABC2Monke(txt.lower())
-        print(ToPrint)
-        time.sleep(30)
-    else:
-        print("OMG, are u stupid ? Insert M or H. Dude.")
-        time.sleep(30)
+    Start = 1
+    while Start == 1:
+        print("Insert M if you want to traduce from RDIML to a Language that use Latin alphabet. Insert H if you want to traduce from a Language that use Latin alphabet to RDIML.")
+        Lng = input("     ")
+        if Lng.upper() == "M":
+            txt = input("Insert your text now :   ")
+            ToPrint = Monke2ABC(txt)
+            print(ToPrint)
+            time.sleep(15)
+        elif Lng.upper() == "H":
+            txt = input("Insert your text now :   ")
+            ToPrint = ABC2Monke(txt.lower())
+            print(ToPrint)
+            time.sleep(15)
+        else:
+            print("OMG, are u stupid ? Insert M or H. Dude.")
+            time.sleep(15)
+        
+        restart = input("Press enter to restart or EXIT to exit :    ")
+        if restart.upper() == "EXIT":
+            Start = 0
+        else :
+            Start = 1
     
     return None
 # ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
