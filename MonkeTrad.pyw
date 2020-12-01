@@ -123,13 +123,19 @@ def Monke2ABC() -> None:
 # Def Window
 window = Tk()
 
-window.title("MonkeTrad")
+window.title("MonkeTrad V2.1 - by MOSEMBIK")
 
-window.geometry("500x350")
+window.geometry("500x400")
 
 # ABC 2 Monke
-LbV1 = Label(window, text=" ", font=("Arial Bold", 30))
+LbV1 = Label(window, text=" ", font=("Arial Bold", 5))
 LbV1.grid(column=0, row=0)
+
+TitleM = Label(window, text="MonkeTrad ©", font=("Impact", 22))
+TitleM.grid(column=1, row=1)
+
+LbV1b = Label(window, text=" ", font=("Arial Bold", 40))
+LbV1b.grid(column=0, row=1)
 
 CLabc = Label(window, text="Classic latin abc :                                               ", font=("Arial Bold", 16))
 CLabc.grid(column=1, row=2)
@@ -159,6 +165,13 @@ LbV4.grid(column=1, row=9)
 TradMk2ABC = Button(window, text="Traduce", bg="orange", fg="black", command=Monke2ABC)
 TradMk2ABC.grid(column=1, row=10)
 
+LbV5 = Label(window, text=" ", font=("Arial Bold", 20))
+LbV5.grid(column=0, row=11)
+
+Credits = Label(window, text="Reims - DUT Info 2020 ©", font=("Arial Bold", 7))
+Credits.grid(column=1, row=12)
+Credits2 = Label(window, text="by MOSEMBIK", font=("Arial Bold", 7))
+Credits2.grid(column=1, row=13)
 # ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
 # End of GUI
 
