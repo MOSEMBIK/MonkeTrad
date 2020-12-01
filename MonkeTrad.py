@@ -19,7 +19,12 @@ def ABC2Monke(txt: str) -> str:
     Monke = ""
     abc = [" ", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
     Mabc = [" ", "O", "Oh", "U", "H", "Ou", "Hi", "I", "A", "Ha", "Ho", "Uh", "Hu", "Hou", "Ah", "Houhi", "Haha", "Oug", "Houg", "Ag", "Hiha", "Hoho", "Hihahou", "Hahouhi", "Houghi", "Haaaa", "Hiiiho"]
+    symb = ["?", ",", ".", "'", "!", "/", ";", ":", "&", "@", "#", "(", ")", "_", "\"", "\\"]
     for i in range(len(Txt)):
+        for k in range(len(symb)):
+            if txt[i] == symb[k]:
+                Monke = Monke + symb[k]
+            
         for j in range(len(abc)):
             if txt[i] == abc[j]:
                 Monke = Monke + Mabc[j]
@@ -42,10 +47,14 @@ def Monke2ABC(txt: str) -> str:
     TrueABC = ""
     abc = [" ", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
     Mabc = [" ", "O", "Oh", "U", "H", "Ou", "Hi", "I", "A", "Ha", "Ho", "Uh", "Hu", "Hou", "Ah", "Houhi", "Haha", "Oug", "Houg", "Ag", "Hiha", "Hoho", "Hihahou", "Hahouhi", "Houghi", "Haaaa", "Hiiiho"]
+    symb = ["?", ",", ".", "'", "!", "/", ";", ":", "&", "@", "#", "(", ")", "_", "\"", "\\"]
     
     txt = txt + "8"
     
     for i in range(len(txt)):
+        for k in range(len(symb)):
+            if txt[i] == symb[k]:
+                TrueABC = TrueABC + symb[k]
         Temp = ""
         if txt[i] != "8":
             if txt[i].isspace() == True:
