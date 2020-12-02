@@ -123,11 +123,11 @@ def Monke2ABC() -> None:
 # Def Window
 window = Tk()
 
-window.title("MonkeTrad V2.1 - by MOSEMBIK")
+window.title("MonkeTrad V2.2.1 - by MOSEMBIK")
 
 window.geometry("500x400")
 
-window.iconbitmap('MonkeTrad.ico')
+window.iconbitmap('icon.ico')
 
 # ABC 2 Monke
 LbV1 = Label(window, text=" ", font=("Arial Bold", 5))
