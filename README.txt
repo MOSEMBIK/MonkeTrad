@@ -64,6 +64,9 @@ Developped by MOSEMBIK
       [✓] - "MonkeTrad V2.2.1"  (02/12/2020)
                Fixes & add README.txt in ZIP Pack;
 
+      [] - "MonkeTrad V2.3"
+               "Copy to Clipboard" button in output window.
+
       [] - "MonkeTrad V3.0"
                Possibility to create .mp3 file of your sentence in RDIML.
 
