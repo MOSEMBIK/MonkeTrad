@@ -27,6 +27,11 @@ Developped by MOSEMBIK
 
 	# An other bug ?
 		 Contact me on mosembik.dev@gmail.com.
+		 
+# You want to contribute ?
+	# Contact me
+		email : mosembik.dev@gmail.com
+		discord : MOSEMBIK#2521
 
 # Development schedule :
     [✓] - "MonkeTrad V1.0"    (29/11/2020)
