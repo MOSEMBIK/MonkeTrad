@@ -1,6 +1,6 @@
 # README.txt
 
-MonkeTrad V2.3
+MonkeTrad V2.3.1
 Developped by MOSEMBIK
 		& Bebop (from V2.2.2)
 
