@@ -28,40 +28,40 @@ Developped by MOSEMBIK
 		 Contact me on mosembik.dev@gmail.com.
 
 # Development schedule :
-    [✓] - "MonkeTrad V1.0"    (28/11/2020)
+    [✓] - "MonkeTrad V1.0"    (29/11/2020)
                Code Python program which can encode latin ABC to RDIML (Reims' DUT Info's Monkey Language);
 
-      [✓] - "MonkeTrad V1.1"    (29/11/2020)
+      [✓] - "MonkeTrad V1.1"    (30/11/2020)
                Code Python program which can decode RDIML to latin ABC;
 
-      [✓] - "MonkeTrad V1.2"    (29/11/2020)
+      [✓] - "MonkeTrad V1.2"    (30/11/2020)
                Fix first cap vanishing issue on encoding latin ABC to RDIML;
 
-      [✓] - "MonkeTrad V1.3"    (29/11/2020)
+      [✓] - "MonkeTrad V1.3"    (1/12/2020)
                Change "import os" by "import time" to bypass Windows Defender quarantine;
 
-      [✓] - "MonkeTrad V1.4"    (29/11/2020)
+      [✓] - "MonkeTrad V1.4"    (1/12/2020)
                Add most useful symbols;
 
-      [✓] - "MonkeTrad V1.4.1"    (29/11/2020)
+      [✓] - "MonkeTrad V1.4.1"    (1/12/2020)
                Add numbers;
 
-      [✓] - "MonkeTrad V1.4.2"    (29/11/2020)
+      [✓] - "MonkeTrad V1.4.2"    (1/12/2020)
                Fix detection bug on last caractere;
 
-      [✓] - "MonkeTrad V1.5"    (29/11/2020)
+      [✓] - "MonkeTrad V1.5"    (1/12/2020)
                Loop program while user dosen't enter EXIT at program ending;
 
-      [✓] - "MonkeTrad V1.5.1"    (29/11/2020)
+      [✓] - "MonkeTrad V1.5.1"    (1/12/2020)
                Improve user experience;
 
-      [✓] - "MonkeTrad V1.5.2"    (29/11/2020)
+      [✓] - "MonkeTrad V1.5.2"    (1/12/2020)
                Fix for "exit bug" on V1.5.1;
 
-      [✓] - "MonkeTrad V2.0"    (30/11/2020)
+      [✓] - "MonkeTrad V2.0"    (1/12/2020)
                Create a smooth interface to improve user experience;
 
-      [✓] - "MonkeTrad V2.1"    (30/11/2020)
+      [✓] - "MonkeTrad V2.1"    (1/12/2020)
                Esthetic update;
 
       [✓] - "MonkeTrad V2.2"    (01/12/2020)
