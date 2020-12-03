@@ -34,7 +34,7 @@ Developped by MOSEMBIK
 		discord : MOSEMBIK#2521
 
 # Development schedule :
-    [✓] - "MonkeTrad V1.0"    (29/11/2020)
+      [✓] - "MonkeTrad V1.0"    (29/11/2020)
                Code Python program which can encode latin ABC to RDIML (Reims' DUT Info's Monkey Language);
 
       [✓] - "MonkeTrad V1.1"    (30/11/2020)
@@ -82,7 +82,7 @@ Developped by MOSEMBIK
       [✓] - "MonkeTrad V2.3"  (03/12/2020)
                "Copy to Clipboard" button in output window & add more symbols.
 
-      [✓] - "MonkeTrad V2.3.1"
+      [✓] - "MonkeTrad V2.3.1"  (03/12/2020)
                Fix Mnumers decode issue.
 
       [] - "MonkeTrad V3.0"
