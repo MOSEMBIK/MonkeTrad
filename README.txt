@@ -8,6 +8,12 @@ Developped by MOSEMBIK
     human classic latin ABC & "RDIML, Reims' DUT Info
     2020's Monke Language" (all right reserved).
     
+# How to use ?
+	# Download the MonkeTrad ZIP Pack.
+	# Unzip it in a folder on your computer.
+	# Make a shortcut of MonkeTrad.exe and put it where you want.
+	# Run MonkeTrad.exe - shortcut to execute the program.
+
 # Something went wrong ?
 	# Error type : Failed to execute script MonkeTrad
 		 This error should come if you start
