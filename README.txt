@@ -1,7 +1,8 @@
 # README.txt
 
-MonkeTrad V2.2.1
+MonkeTrad V2.3
 Developped by MOSEMBIK
+		& Bebop (from V2.2.2)
 
 # What's MonkeTrad ?
      Just a simple program that encode and decode between
@@ -73,7 +74,7 @@ Developped by MOSEMBIK
       [✓] - "MonkeTrad V2.2.2"  (02/12/2020)
                Add more symbols;
 
-      [✓] - "MonkeTrad V2.3"
+      [✓] - "MonkeTrad V2.3"  (03/12/2020)
                "Copy to Clipboard" button in output window & add more symbols.
 
       [] - "MonkeTrad V3.0"
