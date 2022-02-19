@@ -1,7 +1,7 @@
 # README.txt
 
 MonkeTrad V2.3.1 <br>
-Developped by <a href="https://github.com/MOSEMBIK">Inkapa</a> & <a href="https://github.com/Inkapa">Inkapa</a> (since V2.2.2)
+Developped by <a href="https://github.com/MOSEMBIK">MOSEMBIK</a> & <a href="https://github.com/Inkapa">Inkapa</a> (since V2.2.2)
 
 # What's MonkeTrad ?
 Just a simple program that encode and decode between human classic latin ABC & "RDIML, Reims' DUT Info 2020's Monke Language".
