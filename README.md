@@ -84,5 +84,3 @@ An other bug ?
 
 # Disclamer :
 This code is not based on science. It dosen't make you able to speak the monkey's language.
-            
-# ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
