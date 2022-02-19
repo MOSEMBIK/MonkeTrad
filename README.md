@@ -7,10 +7,10 @@ Developped by <a href="https://github.com/MOSEMBIK">Inkapa</a> & <a href="https:
 Just a simple program that encode and decode between human classic latin ABC & "RDIML, Reims' DUT Info 2020's Monke Language".
     
 # How to use ?
-- Download the MonkeTrad ZIP Pack.
+- Download the last MonkeTrad ZIP by <a href="https://github.com/MOSEMBIK/MonkeTrad/releases">clicking here</a>.
 - Unzip it in a folder on your computer.
-- Make a shortcut of MonkeTrad.exe and put it where you want.
-- Run MonkeTrad.exe - shortcut to execute the program.
+- Take the shortcut of MonkeTrad.exe and put it where you want.
+- Run MonkeTrad.exe shortcut to execute the program.
 
 # Something went wrong ?
 <p>
