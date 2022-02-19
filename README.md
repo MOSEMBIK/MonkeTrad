@@ -1,21 +1,21 @@
 # README.txt
 
-MonkeTrad V2.3.1
-Developped by MOSEMBIK
-		& Bebop (from V2.2.2)
+MonkeTrad V2.3.1 <br>
+Developped by <a href="https://github.com/MOSEMBIK">Inkapa</a> & <a href="https://github.com/Inkapa">Inkapa</a> (since V2.2.2)
 
 # What's MonkeTrad ?
-     Just a simple program that encode and decode between
-    human classic latin ABC & "RDIML, Reims' DUT Info
-    2020's Monke Language" (all right reserved).
+Just a simple program that encode and decode between <br>
+human classic latin ABC & "RDIML, Reims' DUT Info <br>
+2020's Monke Language" (all right reserved).
     
 # How to use ?
-	# Download the MonkeTrad ZIP Pack.
-	# Unzip it in a folder on your computer.
-	# Make a shortcut of MonkeTrad.exe and put it where you want.
-	# Run MonkeTrad.exe - shortcut to execute the program.
+- Download the MonkeTrad ZIP Pack.
+- Unzip it in a folder on your computer.
+- Make a shortcut of MonkeTrad.exe and put it where you want.
+- Run MonkeTrad.exe - shortcut to execute the program.
 
 # Something went wrong ?
+<p>
 	# Error type : Failed to execute script MonkeTrad
 		 This error should come if you start
 		MonkeTrad.exe in a file that doesn't include
@@ -27,7 +27,8 @@ Developped by MOSEMBIK
 
 	# An other bug ?
 		 Contact me on mosembik.dev@gmail.com.
-		 
+</p>
+
 # You want to contribute ?
 	# Contact me
 		email : mosembik.dev@gmail.com
